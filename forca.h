@@ -1,0 +1,12 @@
+void forca ( void );
+void joga ( int *tentativas, char letras[26] );
+void mostraInicio (void);
+int achouLetra ( int tentativas, char letras[26], char letra );
+void exibeForca ( char palavra[30], char letras[26], int tentativas );
+void escolhePalavra ( char palavra[30] );
+int enforcou ( char letras[26], int tentativas, char palavra[30] );
+int venceu ( char letras[26], int tentativas, char palavra[30] );
+void adicionaPalavra ( void );
+void mostraDerrota ( void );
+void mostraVitoria ( void );
+void desenhaForca ( char letras[26], int tentativas, char palavra[30] );
